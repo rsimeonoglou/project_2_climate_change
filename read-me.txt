@@ -1,6 +1,8 @@
-1. Scraping all the tables from web-page into dataframes using "Beautiful-Soup"
+Goal 1:
+
+1. Scraping all the tables from web-page into dataframes using "Beautiful-Soup"  ==> In-progress
 
 2. Cleaning & transforming the tables using pandas
 
-3. Loading the dataframes into "Post-gre"
+3. Loading the dataframes into "Post-gre SQL"
 
