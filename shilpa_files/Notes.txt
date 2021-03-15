@@ -1,0 +1,7 @@
+
+1. Scraping all the tables from web-page into dataframes using "Beautiful-Soup" 	==> complete
+
+2. Cleaning & transforming the tables using pandas				 ==> complete
+
+3. Loading the dataframes into "Post-gre SQL" and csv file			==> complete
+
