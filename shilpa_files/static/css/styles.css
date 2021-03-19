@@ -1,0 +1,100 @@
+.btn-group-vertical{ 
+	/* padding-left: 35px; 
+	padding-right: 20px;  */
+    margin-top: 25px;
+    margin-left: 30px;
+	/* padding-top: 10px; 
+	padding bottom: 10px;  */
+} 
+
+.panel-body{
+    padding-top: 10px; 
+	padding bottom: 10px;
+
+}
+
+.Startyr{
+    padding-top: 10px; 
+	padding bottom: 10px;
+
+}
+
+.Endyr{
+    padding-top: 10px; 
+	padding bottom: 10px;
+
+
+}
+
+ 
+#select-form { line-height: 2.5em; }
+
+#select-form aside { width: 330px !important; line-height: 1.75em; font-size: 0.9em; }
+
+@media only screen and (max-width: 1024px) {
+  #select-form aside { width: 100% !important; display: block !important; }
+  #required { float:left; clear: both; }
+}
+
+#select-form aside hr { margin-top: 1em; }
+
+#select-form #formNotes {
+  background-color: transparent !important;
+  line-height:      1.35em !important;
+  font-style:       italic;
+}
+
+#select-form #required label { display: inline-block; width: 85px; line-height: 1em; }
+
+#select-form #required label a { font-weight: bold;; }
+
+#select-form #required select { width: 290px !important; }
+
+#select-form select { background-color: #fff; }
+#select-form :disabled { background-color: #ddd; }
+#select-form input[type="text"] { width: 80px; }
+
+#select-form option.title { font-weight: bold; }
+
+
+.chartCanvas-menu-item { cursor: pointer; }
+
+#locator_canvas {
+  background-position: 50% 15%;
+  background-repeat:   no-repeat;
+  background-image:    url('/shared/v1/images/noaa_loader.gif');
+}
+
+#prevNext { line-height: 2em; font-size: 0.8em; }
+#prevNext a { font-weight: bold; }
+#prev { float: left; }
+#next { float: right; }
+
+table { background-color: #FFFFFF; }
+
+#valuesTable td { text-align: right; }
+#valuesTable td.region { text-align: left; }
+
+.tablesorter-headerAsc { background-image: url(/cmb-lib/cmb-templates/images/asc-lt.gif) !important; }
+.tablesorter-headerDesc { background-image: url(/cmb-lib/cmb-templates/images/desc-lt.gif) !important; }
+
+#coords label {
+  display:        inline-block;
+  vertical-align: top;
+  padding-top:    0.5em;
+}
+
+#coords div.input {
+  display:     inline-block;
+  line-height: 1em;
+  text-align:  right;
+}
+
+#coords div.input input { text-align:  right; }
+
+#coords label#lon-label {
+  width:       80px !important;
+  margin-left: 20px;
+}
+
+#chartCanvas { min-height: 400px;}
