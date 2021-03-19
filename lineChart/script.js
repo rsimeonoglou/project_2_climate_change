@@ -34,14 +34,14 @@ let chart1 = new Chart (myLineChart, {
             borderWidth: 1,
             borderColor: '#000',
             hoverBorderWidth: 3,
-            hoverBordercolor: '#000'
+            fill: false
         }]
     },
     options: {
         title:{
             display: true,
             text: 'Global Average Temperatures (°F) per Year ',
-            fontsize: 16
+            fontsize: 26
             },
         legend:{
             position: 'top',
