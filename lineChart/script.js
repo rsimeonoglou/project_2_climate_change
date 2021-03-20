@@ -40,7 +40,8 @@ let chart1 = new Chart (myLineChart, {
             borderWidth: 1,
             borderColor: '#000',
             hoverBorderWidth: 3,
-            fill: false
+            fill: false,
+            
         }]
     },
     options: {
@@ -52,8 +53,8 @@ let chart1 = new Chart (myLineChart, {
         legend:{
             position: 'top',
             labels:{
-                fontColor:'#000'
+                fontColor:'#000'},
                 }
-            }
+            
         }
 });
