@@ -57,12 +57,22 @@ var trace2 = {
 
   
   var data1=[trace1,trace2]
-  var data2=[trace3,trace4,trace5,trace6,trace7,trace8]
+  var data2=[trace4,trace6,trace3,trace5,trace7,trace8]
 
   var layout = {
     title: "Average Amount of Greenhouse Gas ",
-    barmode: "group"
+    barmode: "group",
+    xaxis:{
+      type:'category',
+      showline:false,
+      linewidth:0,
+      zeroline:false,
+      autotick:false,
+      tickfont:{
+        color:'white'
+      }
+    }
   };
 
-  Plotly.newPlot("plot1",data1)
+  Plotly.newPlot("plot1",data1,layout)
   Plotly.newPlot("plot2",data2)
