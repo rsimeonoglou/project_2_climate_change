@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="/static/css/styles.css" rel="stylesheet">
+  <title>Global Warming</title>
+</head>
+<body>
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="{{ url_for('index') }}">Correlation Coalition </a>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      <ul class="navbar-nav px-3">
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="{{ url_for('index') }}">
+                  <h5>Summary Dashboard</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('Global') }}">
+                  <h5>Global Analysis</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('Country') }}">
+                  <h5>Country Analysis</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <button class="dropdown-btn">Data
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a class="nav-link", href="/global-surface-temperature">
+                    <h6>Global Surface Temperatures</h6></a>
+                  <a class="nav-link" href="/population-by-country">
+                    <h6>Population by Country</h6></a>
+                  <a class="nav-link" href="/greenhouse-gases">
+                    <h6>Greenhouse Gases</h6></a>
+                </div>
+                <script src="/static/js/dropdown-script.js" ></script>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('Causes') }}">
+                  <h5>Causes Analysis</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('help') }}">
+                  <h5>Need Help?</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main id="fix-overflow" role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1 class="h2">Country Analysis</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-secondary">Share</button>
+                <button class="btn btn-sm btn-outline-secondary">Export</button>
+              </div>
+            </div>
+          </div>
+          <img src="/static/images/country-map.gif" alt="Country Ref">
+          <br>
+          <br>
+          <br>
+          <p>Description of Map</p>
+        </main>
+      </div>
+    </div>
+  </body>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</html>
