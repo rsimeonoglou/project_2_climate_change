@@ -135,9 +135,39 @@ body {
   }
 
   #table-area {
-    height:900px;
-    width:1300px;
+    height:450px;
+    width:1400px;
 
 
 
+  }
+
+  #plotly-div {
+    height: 350px;
+    width: 100%;
+  }
+
+  .leftpane {
+      width: 33%;
+      height: 100%;
+      float: left;
+      background-color: white;
+      border-collapse: collapse;
+  }
+  .middlepane {
+      width: 33%;
+      height: 100%;
+      float: left;
+      background-color: white;
+      border-collapse: collapse;
+      padding: 5px;
+  }
+  .rightpane {
+    width: 33%;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: white;
+    border-collapse: collapse;
+    text-align: right;
   }

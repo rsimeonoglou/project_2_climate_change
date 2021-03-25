@@ -87,5 +87,5 @@ var trace1 = {
   };
   
   // Render the plot to the div tag with id "plot"
-  Plotly.newPlot("myChart1", traceData1, layout1);
-  Plotly.newPlot("myChart2", traceData2, layout2);
+  Plotly.newPlot("myplot1", traceData1, layout1);
+  Plotly.newPlot("myplot2", traceData2, layout2);

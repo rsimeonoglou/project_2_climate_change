@@ -18,7 +18,7 @@ from sqlalchemy import create_engine, func
 #################################################
 # Database Setup
 #################################################
-engine = create_engine('postgresql://postgres:Aadhya2014@localhost:5432/Global-Warming')
+engine = create_engine('postgresql://postgres:{}@localhost:5432/Global-Warming')
 conn = engine.connect()
 
 #################################################
@@ -74,7 +74,7 @@ def greenhousegases():
 
         # redirect to end the POST handling
         # the redirect can be to the same route or somewhere else
-        return redirect(url_for('Gases'))
+        return redirect(url_for('greenhouse-gases'))
 
     # show the form, it wasn't submitted
     return render_template("greenhouse-gases.html")
